@@ -1,0 +1,330 @@
+=====================================================================
+CROWN OF CLOUDY MOUNTAIN
+Instructions and game details
+=====================================================================
+
+THE STORY IN ONE LINE
+---------------------
+Delve the mountains to gather the axe, boat, and key. Cross the land
+to the Cloudy Mountain and find the lost Crown.
+BEWARE the dragons.
+
+Play with your phone held sideways (landscape). The game also works
+in a desktop browser with a keyboard.
+
+
+---------------------------------------------------------------------
+1. STARTING A GAME
+---------------------------------------------------------------------
+On the start page, tap a difficulty:
+
+  EASY    The game as written.
+  MEDIUM  20% more monsters.
+  HARD    40% more monsters.
+
+On a keyboard you can press 1, 2 or 3 instead. Space, Enter or the
+Shoot button starts with the highlighted difficulty.
+
+You start every game with 4 hearts and 12 arrows. The timer starts
+the moment you pick a difficulty.
+
+If your phone is held upright, a "Rotate your phone" message covers
+the game. The game and the timer pause until you turn it sideways.
+
+
+---------------------------------------------------------------------
+2. CONTROLS
+---------------------------------------------------------------------
+PHONE
+  Joystick   Touch anywhere on the left half of the screen. A
+             joystick appears under your thumb. Drag to move or turn.
+             Lift your thumb to stop.
+  Shoot      The button on the right. Hold it to keep firing.
+  Speaker    The button at the top right mutes or unmutes all sound.
+  Restart    The "Restart" button next to the speaker ends the
+             current game and returns to the start page.
+
+KEYBOARD
+  Arrow keys or WASD   Move or turn
+  Space                Fire an arrow
+  Esc                  Restart: end the game, back to the start page
+
+ON THE MAP
+  The joystick (or arrow keys) moves your hunter one square at a
+  time, about 6 squares a second while you hold it. You can move
+  diagonally by pushing at an angle or by pressing two arrow keys.
+  You can only enter a mountain by pushing straight toward it.
+
+INSIDE A MOUNTAIN (first-person view)
+  Push up     Walk forward
+  Push down   Walk backward
+  Push left   Turn left
+  Push right  Turn right
+  Arrows fly straight ahead, where the nocked arrow on your bow
+  points. You walk at about 4 squares a second and fire up to three
+  arrows a second.
+
+
+---------------------------------------------------------------------
+3. THE MAP
+---------------------------------------------------------------------
+Every game has a new, randomly made map, 16 squares wide and 9 tall.
+Your hunter (a walking archer in a green hat) starts at the HOUSE on
+the far left. The CLOUDY MOUNTAIN, a tall dark grey mountain with
+clouds drifting around its top and a cave mouth at its base, is on
+the far right, on the same row as the house. The squares above and
+below it are blocked mountains, so you can only reach it from the
+left. The map can always be finished.
+
+The bar across the top of the map shows your arrow count and your
+axe, boat and key. Items you do not have yet are dimmed.
+
+TERRAIN
+  Plains      Green grass. Walk freely.
+  Woods       Dense pines. You need the AXE to enter.
+  River       One long river runs from the top to the bottom of the
+              map, between columns 4 and 7. You need the BOAT to
+              cross it. About three maps in four also have a short
+              4-square stream near it that you can walk around.
+  Stone wall  A tall wall runs from the top to the bottom, in column
+              11 or 12 (counting the house column as 0). It has one
+              GATE, a wooden door with a gold padlock. You need the
+              KEY to open it. Rivers never touch the wall.
+  Mountains   Brown twin peaks, scattered across the map. See below.
+
+YOUR MARKER
+  The hunter changes as you travel: on a river he becomes the BOAT,
+  in the woods he becomes the AXE, and on the gate he becomes the
+  KEY.
+
+MOUNTAINS ON THE MAP
+  All the small mountains look alike. A few can be entered and many
+  cannot. When your hunter stands next to one you can enter, it
+  glows gold and sparkles. Push straight toward it to go in. A
+  mountain that does not glow is too steep to climb ("Too steep to
+  climb"), so walk around it.
+
+  Each enterable mountain holds one prize: an axe, a boat or a key.
+  There are about ten on a typical map. Keys are only found in
+  mountains in the five columns just before the wall, and every map
+  has at least one key mountain. Once you finish a mountain it gets
+  a red "Open" banner and you can walk through it like plain ground.
+
+  After you leave a mountain, your hunter catches his breath for 1.5
+  seconds before he can move again.
+
+
+---------------------------------------------------------------------
+4. INSIDE THE MOUNTAINS
+---------------------------------------------------------------------
+Every chamber is a maze of cave tunnels seen through your own eyes.
+You always start in the middle of the chamber.
+You carry a flickering torch, which is the only light, so you can
+only see a few squares ahead. The mazes are made fresh every time,
+so no two chambers are the same.
+
+THE STAIRS
+  In each chamber your goal is the STAIRS DOWN, a stone-framed
+  stairwell set into the floor in a random corner of the maze. Walking
+  onto them starts a 5-second "Descending..." fade, then you arrive
+  in the next chamber. The game is paused during the fade, so
+  nothing can hurt you. Each descent scores 50 points.
+
+ORDINARY MOUNTAINS (2 chambers)
+  The first chamber ends in the stairs. The last chamber has no
+  stairs: your prize lies in a random corner, and a KING COBRA is
+  coiled on top of it. Take the prize and you go back to the map with
+  all your hearts restored (and 100 points).
+  About 4 in every 10 ordinary mountains also hold a DRAGON asleep in
+  a different corner of the last chamber. Nothing on the map warns
+  you.
+
+THE CLOUDY MOUNTAIN (3 chambers)
+  Each chamber is about 50% larger than a normal chamber. In the
+  third chamber a DRAGON sleeps on top of the crown. Take the crown
+  and you win. The second chamber holds a KING COBRA coiled in a
+  corner away from the stairs.
+
+
+---------------------------------------------------------------------
+5. CREATURES
+---------------------------------------------------------------------
+Touching a creature hurts you. After any hit you are protected for
+1.5 seconds. Speeds are in squares per second (you walk at 4) and
+are for Easy. All creatures move 10% faster on Medium and 20% faster
+on Hard.
+
+BAT         Furry, with ragged wings, red eyes and fangs.
+            1 arrow. Costs half a heart. Worth 10 points.
+            Flies fast (1.8) and erratically. Its sound plays
+            when it is within 5 squares.
+SPIDER      Black and banded, with red eyes and venom-dripping fangs.
+            2 arrows. Costs half a heart. Worth 30 points.
+            Slow (0.8), but chases you from 5 squares away.
+BLOB        A floating red-pink blob with a big bloodshot eye.
+            CANNOT BE KILLED: arrows only make it flash white.
+            Costs a full heart. Worth nothing.
+            Very slow (0.5); drifts toward you from 7 squares away.
+RODENT      A rabid brown rat.
+            1 arrow. Worth 10 points. It does not hurt your hearts:
+            it STEALS ONE ARROW, then runs away for 3 seconds before
+            coming back. Fast (1.8) and chases from 6 squares away.
+            Its sound plays when it is within 3 squares.
+KING COBRA  A hooded cobra with glowing eyes and dripping fangs, about
+            the size of a spider. Found in the last chamber of an
+            ordinary mountain, coiled on the prize, and in the
+            second chamber of the Cloudy Mountain.
+            2 arrows. Costs half a heart. Worth 20 points.
+            Its sound plays when you are within 15 squares. It wakes
+            when you come within 10 (or when it is hit) and then
+            slithers toward you for good, at 1.6 squares a second.
+DRAGON      Large and dark red, with wings and horns.
+            3 arrows. Costs a full heart. Worth 100 points.
+            Sleeps until you come within 8 squares (or an arrow hits
+            it), then follows you for the rest of the chamber at 2
+            squares a second, half your speed. It is NOT solid: you
+            can walk through it, but touching it hurts. Once awake it
+            spits a fireball about every 2 seconds while you are
+            within 6 squares. Its sound plays within 15 squares.
+FIREBALL    Moves 2.4 squares a second in a straight line toward
+            where you were standing. Costs a full heart. It vanishes
+            when it hits a wall, and you can dodge it by moving aside.
+
+HOW MANY ARE THERE
+  Every chamber has random bats, spiders, blobs and rodents. The
+  number rises with depth and with difficulty. Typical numbers:
+
+                       Bats+spiders   Blobs   Rodents
+  Chamber 1   Easy          4           1        1
+              Medium        5           1        1
+              Hard          6           1        1
+  Chamber 2   Easy          6           2        2
+              Medium        7           2        2
+              Hard          8           3        3
+  Chamber 3   Easy          8           3        2
+  (Cloudy     Medium       10           4        2
+  Mountain)   Hard         11           4        3
+
+  The deeper the chamber, the more spiders there are compared with
+  bats.
+
+
+---------------------------------------------------------------------
+6. ITEMS, HEARTS AND ARROWS
+---------------------------------------------------------------------
+HEARTS
+  You have 4 hearts. A heart can be half filled. When your hearts
+  reach zero, the game is over. Damage:
+    Bat, spider or snake touch    half a heart
+    Blob touch                    one heart
+    Dragon touch or fireball      one heart
+    Rodent touch                  no heart loss (it steals an arrow)
+
+ARROWS
+  You start with 12. Entering a mountain or taking the stairs does
+  NOT give you more, so make them last. Your arrows fly about 17
+  squares a second until they hit a wall or a monster. The count is
+  shown at the top left of the chamber view (red at 2 or fewer).
+  Arrows do not come back.
+
+ARROW BUNDLE   A bundle of arrows on the floor. +4 arrows.
+  Placed by difficulty:   Easy 2 per chamber, Medium 1, Hard none.
+  Dropped by monsters:    every monster you kill may drop one. The
+                          chance is 10% on Easy, 20% on Medium and
+                          40% on Hard.
+
+HEALTH POTION  A red flask with a white cross. Restores ALL your lost
+  hearts when you walk over it. If your hearts are full you walk past
+  it and it waits for you.
+  Easy 2 per chamber, Medium 1, Hard none.
+
+PRIZES AND THE CROWN
+  The axe, boat and key lie at the end of ordinary mountains. The
+  crown lies at the end of the Cloudy Mountain.
+
+FINISHING A MOUNTAIN restores all your hearts.
+
+
+---------------------------------------------------------------------
+7. DIFFICULTY AT A GLANCE
+---------------------------------------------------------------------
+                          Easy      Medium    Hard
+  Monsters                normal    +20%      +40%
+  Creature speed          normal    +10%      +20%
+  Arrow bundles/chamber   2         1         0
+  Health potions/chamber  2         1         0
+  Monster arrow drops     10%       20%       40%
+
+Everything else is the same on all three.
+
+
+---------------------------------------------------------------------
+8. SCORE, TIME AND THE END SCREENS
+---------------------------------------------------------------------
+POINTS
+  Defeat a bat                           10
+  Defeat a rodent                        10
+  Defeat a snake                         20
+  Defeat a spider                        30
+  Defeat the dragon                     100
+  Go down the stairs to a new chamber    50
+  Finish an ordinary mountain           100
+  Take the crown                        200
+  Blobs score nothing because they cannot be killed.
+
+TIMER
+  A stopwatch at the top of the screen starts when you choose a
+  difficulty and keeps running on the map and in the mountains,
+  including during the descending fades. It pauses when the phone is
+  held upright and stops when you take the crown or lose.
+
+VICTORY
+  Taking the crown shows a fancy unfurling scroll that reads
+  "CONGRATULATIONS - You are now master of the realm!" with a wax
+  seal, falling confetti and the ending music.
+
+GAME OVER
+  When your hearts reach zero, a death sound plays once. Tap to
+  return to the start page. A new map is made for your next game.
+
+BOTH END SCREENS SHOW
+  Your final score, your time, how many monsters you killed and how
+  many arrows you shot. Blobs never count as killed.
+
+
+---------------------------------------------------------------------
+9. SOUND
+---------------------------------------------------------------------
+  Start page     Violin music
+  Map            Map music
+  Mountains      Chamber music, plus creature sounds: bat within 5
+                 squares, rodent within 3, snake within 15, dragon
+                 within 15. They get louder as the creature nears.
+  Hit by a foe   A short hit sound (not on the hit that kills you)
+  Dragon fires   A sound plays for every fireball
+  Death          The death sound plays once
+  Victory        The ending music
+
+Phones and browsers only allow sound after you touch the screen. The
+speaker button at the top right of the screen mutes everything and
+unmutes it again.
+
+
+---------------------------------------------------------------------
+10. TIPS
+---------------------------------------------------------------------
+- Do not waste arrows on blobs. Walk around them.
+- Shoot rodents on sight. Each one that reaches you costs an arrow.
+- The cobra and the dragon never give up once they wake. Hit them
+  early, or run for the prize and take the damage.
+- Fireballs are slower than you. Keep moving sideways to dodge them.
+- Pick up every arrow bundle you pass. On Hard the only new arrows
+  come from monsters you kill, so every shot counts.
+- Save a health potion for when your hearts are low. You also get all
+  your hearts back for free whenever you finish a mountain.
+- Blocked and finished mountains look alike apart from the red
+  "Open" banner, so look for the gold glow as you walk.
+- Do not forget the key. It is in one of the mountains just before
+  the stone wall.
+
+Good luck, hunter!
