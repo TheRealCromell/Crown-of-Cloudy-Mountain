@@ -14,8 +14,8 @@ html,body{height:100%;margin:0;background:var(--bg);color:var(--ink);font-family
 body{display:grid;grid-template-columns:auto 1fr auto;grid-template-rows:auto minmax(0,1fr)}
 #hud{grid-column:1/4;grid-row:1;display:flex;justify-content:space-between;padding:8px 14px;font-size:15px;font-weight:700}
 #mute{background:var(--panel);border:2px solid var(--ring);color:var(--ink);border-radius:8px;font-size:20px;line-height:1;min-width:48px;height:34px;padding:0 10px;cursor:pointer;touch-action:manipulation;-webkit-tap-highlight-color:transparent}
-#mute:active,#rst:active{background:var(--knob);color:var(--bg)}
-#rst{background:var(--panel);border:2px solid var(--ring);color:var(--ink);border-radius:8px;font-size:14px;font-weight:700;font-family:inherit;line-height:1;min-width:48px;height:34px;padding:0 10px;cursor:pointer;touch-action:manipulation;-webkit-tap-highlight-color:transparent}
+#mute:active,#rst:active,#ins:active{background:var(--knob);color:var(--bg)}
+#rst,#ins{background:var(--panel);border:2px solid var(--ring);color:var(--ink);border-radius:8px;font-size:14px;font-weight:700;font-family:inherit;line-height:1;min-width:48px;height:34px;padding:0 10px;cursor:pointer;touch-action:manipulation;-webkit-tap-highlight-color:transparent}
 #hb{display:flex;gap:8px}
 #lv{white-space:pre}
 #lz{position:fixed;left:0;top:0;bottom:0;width:46%;z-index:5;touch-action:none;pointer-events:none}
@@ -38,7 +38,7 @@ canvas{image-rendering:auto;border:2px solid var(--ring);border-radius:4px;backg
 </head>
 <body>
 <div id="rot"><svg viewBox="0 0 48 48" aria-hidden="true"><rect x="14" y="4" width="20" height="40" rx="4"/><line x1="21" y1="39" x2="27" y2="39"/></svg><div>Rotate your phone</div><small>The game plays in landscape. It resumes when you turn it sideways.</small></div>
-<div id="hud"><span id="hp"></span><span id="tm"></span><span id="lv"></span><span id="hb"><button id="rst" type="button" aria-label="Restart game" title="Restart (Esc)" tabindex="-1">Restart</button><button id="mute" type="button" aria-label="Mute sound" tabindex="-1">🔊</button></span></div>
+<div id="hud"><span id="hp"></span><span id="tm"></span><span id="lv"></span><span id="hb"><button id="ins" type="button" aria-label="Open instructions in a new window" title="Instructions (opens a separate window)" tabindex="-1">Instructions</button><button id="rst" type="button" aria-label="Restart game" title="Restart (Esc)" tabindex="-1">Restart</button><button id="mute" type="button" aria-label="Mute sound" tabindex="-1">🔊</button></span></div>
 <div id="wrap"><canvas id="c"></canvas></div>
 <div id="pad"><div id="stick"><div id="knob"></div></div><div id="fire">Shoot</div></div>
 <div id="lz"></div><div id="fs"><div id="fk"></div></div>
@@ -1241,6 +1241,12 @@ function gesture(){
 }
 addEventListener('pointerdown',gesture,true);
 addEventListener('keydown',gesture,true);
+{const ib=document.getElementById('ins');if(ib)ib.addEventListener('click',()=>{
+  const u='https://github.com/TheRealCromell/Crown-of-Cloudy-Mountain/blob/main/crown-of-cloudy-mountain-instructions.txt';
+  let w=null;try{w=window.open(u,'cocm_instructions','popup=yes,width=680,height=760,left=80,top=60,resizable=yes,scrollbars=yes')}catch(_){}
+  if(w){try{w.opener=null}catch(_){}try{w.focus()}catch(_){}}
+  else{const a=document.createElement('a');a.href=u;a.target='_blank';a.rel='noopener noreferrer';document.body.appendChild(a);a.click();a.remove()}
+  ib.blur()})}
 {const rb=document.getElementById('rst');if(rb)rb.addEventListener('click',()=>{restartGame();rb.blur()})}
 if(muteBtn)muteBtn.addEventListener('click',()=>{if(S=='title'&&!audibleBefore&&!muted){muteBtn.blur();return}muted=!muted;applyMute();muteBtn.blur()});
 let last=performance.now(),acc=0;
