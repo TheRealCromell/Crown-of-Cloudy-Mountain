@@ -1,5 +1,5 @@
 # [Crown-of-Cloudy-Mountain](https://therealcromell.github.io/Crown-of-Cloudy-Mountain/)
-Homage to Intellivivion's AD&amp;D Cloudy Mountain
+Homage to Intellivision's AD&amp;D Cloudy Mountain
 LEGAL STUFF: I own no copyright. The music and sounds used are from freesound.org. This was all for fun and love of the game. Any similarities to copyrighted material is meant as an homage.
 
 I played Cloudy Mountain (also known as Adventure or Crown of Kings) constantly until the Intellivision pads broke. I always wanted to learn how to code to recreate the game as a mobile app, I wish those that do own it would.
